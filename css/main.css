@@ -2533,7 +2533,7 @@ footer a, footer a:visited {
 	color: #FFFFFF;
 }
 footer a:hover, footer a:focus {
-	color: #FF0077;
+	color: #FFFFFF;
 }
 footer .row {
 	max-width: 900px;
@@ -2564,7 +2564,7 @@ footer .copyright span::after {
 	content: "|";
 	display: inline-block;
 	padding: 0 1rem 0 1.2rem;
-	color: rgba(255, 255, 255, 1);
+	color: rgba(255, 255, 255);
 }
 footer .copyright span:last-child::after {
 	display: none;
@@ -2578,6 +2578,7 @@ footer .copyright span:last-child::after {
 @media only screen and (max-width:768px) {
 	footer {
 		text-align: center;
+		color: #FFFFFF;
 	}
 	footer .social {
 		display: block;
